@@ -1,7 +1,7 @@
 import json
 import os
 
-from src.api.main import app
+from src.api.main import app  # ensures app is loaded with all routes
 
 # Get the OpenAPI schema
 openapi_schema = app.openapi()
